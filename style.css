@@ -1,0 +1,429 @@
+
+body {
+    background-attachment: fixed;
+    background-color: #ffffff;
+    color: #6f7074;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.642;
+    overflow-x: hidden;
+    transition: inherit;
+    -webkit-font-smoothing: antialiased; }
+
+
+.landing_bg{
+
+    background-size: cover;
+    padding: 0px;
+
+}
+
+.landing_bg img{
+    width: 100%;
+}
+
+.counter-row{
+
+    position: absolute;
+    top: -118px;
+    
+
+}
+
+.eqry-form{
+
+    position: absolute;
+    top: 229px;
+    right: 228px;
+}
+
+
+
+
+.counter-column {
+    position: relative;
+    margin-bottom: 50px;
+}
+.count-text{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    line-height: 1em;
+    color: #FFD92A;
+    text-shadow: 10px 10px 10px rgb(0 0 0 / 10%);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.counter-title {
+    position: relative;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#enquire_form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 14px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 0px 0px 20px rgb(0 0 0 / 17%);
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 17%);
+    border-radius: 14px;
+}
+/* .bottom-right {
+    position: absolute;
+    bottom: -60px;
+  
+    padding: 0;
+    margin: 0 auto;
+} */
+
+
+.form_txt {
+    color: #c70a4b;
+    font-size: 20px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.form-check {
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+
+
+.submit_button {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid #AF0C3E;
+    background: #FFFFFF;
+    color: #AF0C3E;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+.nav_bg{
+        background-color: #FFFFFF;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #656565;
+}
+
+
+
+
+/* campus section */
+
+
+
+.banner_bg{
+    background-image:url(images/bg1.png) ;
+}
+
+
+
+.row-background1.right {
+    right: 0;
+}
+
+.row-background {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    height: 100%;
+}
+
+.partner{
+    background-color: #FAEDED;
+}
+
+.border-line{
+
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.border-line-custum{
+    border-bottom: 1px solid;
+}
+
+.border-line-left{
+    border-left: 1px solid;
+}
+
+.campus_lispm{
+    position: absolute;
+    right: 146px;
+    bottom: 81px;
+
+}
+.campus_lispm h1,p{
+    color: #FFFFFF;
+}
+/* .campus_lispm h1{
+
+}
+ */
+
+.intrest .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 30px;
+    width: 286px;
+    height: 52px;
+}
+
+
+.intrest h1{
+    color: #B10F56;
+}
+
+.intrest ul li {
+    color: #262626;
+    font-size: 14px;
+    line-height: 35px;
+    font-family: 'Montserrat';
+}
+
+
+/* dual degree */
+
+.dual-degree{
+    /* outline: 2px solid black;
+    background-size: 100%;
+    padding: 24em; */
+    background-image: url(images/amrita_univerty1.png);
+    background-color: #B6083D;
+    /* background-repeat: no-repeat; */
+}
+
+.block-entry {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.block-entry .container {
+    max-width: 100%;
+    position: relative;
+}
+
+
+.cell-view.simple-banner-height.big {
+    height: 800px;
+}
+
+
+.cell-view {
+    display: table-cell;
+    vertical-align: middle;
+    width: 10000px;
+}
+
+.cell-view h1,p{
+    color: #FFFFFF;
+}
+
+.row-background.right {
+    right: 0;
+}
+
+.row-background {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    height: 100%;
+}
+
+
+/* vdo */
+
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.thumbnail{
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 19%;
+}
+.rounded-image{
+    background-size: cover;
+    background-position: right top;
+    position: relative;
+}
+
+
+
+
+/* key deff */
+
+.btn-outline-danger {
+    color: #B10F56;
+    border-color: #B10F56;
+    font-weight: 600;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #b10f56;
+    border-color: #b10f56;
+}
+.divider_home1:before {
+    background: linear-gradient(
+90deg
+, #B10F56 2.8%, #D00846 96.83%) !important;
+}
+
+
+.divider_home1:before {
+    background-color: rgba(25, 38, 117, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.divider_home1, .divider_home2 {
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    padding: 130px 0;
+    position: relative;
+}
+
+
+.parallax {
+    background-attachment: scroll;
+    background-position: 50% 0px;
+    z-index: 1;
+    position: relative;
+}
+.main-title {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+.main-title h3 {
+    display: inline-block;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 38px;
+    line-height: 48px;
+    color: #2e2d2c;
+    text-transform: uppercase;
+}
+
+
+
+.pro_icon_block {
+    padding: 20px 0;
+}
+
+
+
+.funfact_one .icon {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: initial;
+}
+
+
+.funfact_one .details h5 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+.pr-icon h5 {
+    font-family: 'Montserrat' !important;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* testmo */
+
+.testu{
+    /* outline: 2px solid black;
+    background-size: 100%;
+    padding: 24em; */
+
+    background-color: #E5E5E5;
+    /* background-repeat: no-repeat; */
+}
+
+
+
+
+
+/* footer */
+
+
+
+
+.footer_one.home4 {
+    background: #FDF8F9;
+    padding: 100px 0;
+}
+
+.footer-logo-links ul li {
+
+    line-height: 40px;
+    color: #262626;
+}
+
+.footer-logo-links ul li a{
+
+    color: #262626;
+    font-weight: 500;
+}
+
+
+
+.footer_one.home4 h4 {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #ba0e52;
+}
+
+
+.footer_contact_widget li a, .footer_company_widget li a, .footer_program_widget li a, .footer_support_widget li a {
+    color: #7f7676;
+    font-size: 13px;
+    line-height: 38px;
+    font-weight: 500;
+}
