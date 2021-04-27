@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
     color: #6f7074;
     font-family: 'Fira Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Montserrat'', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.642;
@@ -12,7 +12,16 @@ body {
     transition: inherit;
     -webkit-font-smoothing: antialiased; }
 
+h1{
+font-family: ''Montserrat'';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 56px;
+text-transform: uppercase;
+color: #B30F56;
 
+}
 .landing_bg{
 
     background-size: cover;
@@ -70,7 +79,7 @@ body {
     background: #fff;
     padding: 20px 30px;
     border-radius: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Montserrat'', sans-serif;
     -webkit-box-shadow: 0px 0px 20px rgb(0 0 0 / 17%);
     box-shadow: 0px 0px 20px rgb(0 0 0 / 17%);
     border-radius: 14px;
@@ -87,14 +96,14 @@ body {
 .form_txt {
     color: #c70a4b;
     font-size: 20px !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Montserrat'', sans-serif;
 }
 
 
 .form-check {
     text-align: left;
     font-size: 11px;
-    font-family: 'Montserrat';
+    font-family: ''Montserrat'';
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -110,7 +119,7 @@ body {
     color: #AF0C3E;
     padding: 10px;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Montserrat'', sans-serif;
     font-weight: 600;
 }
 
@@ -128,14 +137,33 @@ body {
 
 
 
+
+/* second section starts */
+
+.lispum-gen h1{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #AF0C3E;
+}
+
+/* second section ends*/
+
+
+
+
+
+
+
 /* campus section */
-
-
 
 .banner_bg{
     background-image:url(images/bg1.png) ;
 }
-
 
 
 .row-background1.right {
@@ -151,20 +179,26 @@ body {
 
 .partner{
     background-color: #FAEDED;
+    padding: 5%;
 }
 
+
+.client img{
+
+    padding: 11px;
+}
 .border-line{
 
-    border-right: 1px solid;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.66);
     border-bottom: 1px solid;
 }
 
 .border-line-custum{
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.66);
 }
 
 .border-line-left{
-    border-left: 1px solid;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.66);
 }
 
 .campus_lispm{
@@ -173,13 +207,42 @@ body {
     bottom: 81px;
 
 }
-.campus_lispm h1,p{
+
+.campus_lispm h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 64px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.campus_lispm p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
     color: #FFFFFF;
 }
-/* .campus_lispm h1{
 
+
+
+
+
+/* campus section ends */
+
+
+
+
+/* interest starts */
+
+.intrest{
+    margin-top: 16%;
+    margin-bottom: 7% !important;
 }
- */
+
 
 .intrest .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
@@ -190,18 +253,33 @@ body {
 
 
 .intrest h1{
-    color: #B10F56;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: #AF0C3E;
 }
 
 .intrest ul li {
-    color: #262626;
-    font-size: 14px;
-    line-height: 35px;
-    font-family: 'Montserrat';
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 38px;
+
+color: #262626;
+
 }
 
+/* interest ends */
 
-/* dual degree */
+
+
+
+/* dual degree starts*/
 
 .dual-degree{
     /* outline: 2px solid black;
@@ -216,6 +294,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    height: 596px;
 }
 
 
@@ -230,6 +309,29 @@ body {
     height: 800px;
 }
 
+
+.dual-degree h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 56px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.dual-degree p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+/* or 138% */
+
+
+color: #FFFFFF;
+}
 
 .cell-view {
     display: table-cell;
@@ -247,15 +349,22 @@ body {
 
 .row-background {
     position: absolute;
-    width: 50%;
+    width: 51%;
     bottom: 0;
-    height: 100%;
+    height: 117%;
 }
 
 
+.dual-degree-colm{
+    margin-left: 8%;
+}
+
 /* vdo */
 
-.nopadding{
+
+
+
+/* .nopadding{
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -273,13 +382,37 @@ body {
     background-size: cover;
     background-position: right top;
     position: relative;
-}
+} */
 
 
 
 
 /* key deff */
 
+
+
+.divider_home1 h1{
+    font-family: ''Montserrat'';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.divider_home1 h5{
+
+font-family: ''Montserrat'';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #EEEEEE;
+
+}
 .btn-outline-danger {
     color: #B10F56;
     border-color: #B10F56;
@@ -291,9 +424,7 @@ body {
     border-color: #b10f56;
 }
 .divider_home1:before {
-    background: linear-gradient(
-90deg
-, #B10F56 2.8%, #D00846 96.83%) !important;
+    background: linear-gradient(99.79deg, #A4123F 16.57%, #AF0C3E 93.88%)!important;
 }
 
 
@@ -332,7 +463,7 @@ body {
 
 .main-title h3 {
     display: inline-block;
-    font-family: 'Montserrat';
+    font-family: ''Montserrat'';
     margin-bottom: 10px;
     margin-top: 0;
     font-weight: bolder;
@@ -365,14 +496,43 @@ body {
 
 
 .pr-icon h5 {
-    font-family: 'Montserrat' !important;
+    font-family: ''Montserrat'' !important;
     font-weight: 500;
     padding-top: 10px;
 }
 
 
+/* join starts */
+
+.join-amr p{
+font-family: ''Montserrat'';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
 
 
+
+
+.separator{
+    display:flex;
+    align-items: center;
+  }
+  
+  .separator .line{
+    height: 3px;
+    flex: 1;
+    background-color: #000;
+  }
+  
+  .separator h2{
+    padding: 0 2rem;
+  }
+/* join ends */
 
 /* testmo */
 
@@ -385,12 +545,106 @@ body {
     /* background-repeat: no-repeat; */
 }
 
+blockquote{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 35px;
+    color: #7A7676;
+    margin: .5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+  }
+  blockquote:before {
+    content: open-quote;
+  /*   display: inline; */
+  /*   height: 0; */
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #FFD92A;
+    font-size: 3em;
+  }
+
+.testu p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 35px;
+color: #7A7676;
+}
+
+.author-name{
+float: right;
+}
+
+.author-name h5{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 35px;
+color: #A4123F;
+}
 
 
+.author-name p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #6D6D6D;
+
+}
+
+
+.testim-author img{
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
 
 
 /* footer */
 
+.footer-block{
+    background: linear-gradient(90deg, #B10F56 2.8%, #D00846 96.83%);
+    padding: 60px 0;
+}
+.footer-block .container{
+    max-width: 100%;
+    position: relative;
+}
+.footer-block h1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 27px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.footer-block button{
+    border-radius: 21px;
+    width: 153px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.738462px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
 
 
 
@@ -426,4 +680,120 @@ body {
     font-size: 13px;
     line-height: 38px;
     font-weight: 500;
+}
+
+
+.newssletter p{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 19px;
+/* or 158% */
+
+
+color: #262626;
+}
+
+
+.single-line-form {
+    position: relative;
+}
+
+.simple-input {
+    background: #fff;
+}
+
+
+.simple-input, .SumoSelect > .CaptionCont {
+    font-size: 14px;
+    color: #555;
+    height: 50px;
+    line-height: 48px;
+    padding: 0 30px;
+    width: 100%;
+    border: 1px #eee solid;
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    transition: all .15s;
+    -webkit-transition: all .15s;
+}
+
+.single-line-form .button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button.style-3 {
+    background: linear-gradient(90deg, #B10F56 2.8%, #D00846 96.83%);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.button.size-2 {
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.button span {
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+.button-wrapper {
+    display: block;
+    overflow: hidden;
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    position: relative;
+}
+
+.button.style-3 .icon, .button.style-4 .icon {
+    color: #fff;
+}
+
+.button span.icon {
+    transition: all .15s;
+    -webkit-transition: all .15s;
+}
+
+.button .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    color: #b8cd06;
+}
+
+.button.size-2 .text {
+    padding: 17px 30px 15px 30px;
+}
+
+.button span.text {
+    transition: all .3s .05s;
+    -webkit-transition: all .3s .05s;
 }

@@ -1,0 +1,97 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .counter-row {
+        position: absolute;
+        top: -374px;
+        bottom: 3px;
+        left: 44px;
+    }
+
+    .eqry-form {
+        position: unset;
+        top: 0;
+        right: 0;
+    }
+
+
+
+    .side-vdo img{
+width: 93%;
+    }
+
+
+    .campus_lispm h1 {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+
+    .campus_lispm p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+    .campus_lispm {
+        position: unset;
+        right: 0x;
+        bottom: 0px;
+    }
+    .row-background1 img{
+        max-width: 283px;
+    }
+
+
+    .dual-degree h1 {
+        font-size: 26px;
+        line-height: 29px;
+    }
+
+    .dual-degree p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .row-background.right {
+        right: auto;
+    }
+
+
+    .row-background {
+        position: absolute;
+        width: 59%;
+        bottom: 58px;
+        height: 100%;
+    }
+
+    .row-background img{
+        max-width: 346px;
+    }
+
+
+
+    .testim-author img {
+        position: absolute;
+        top: 94px;
+        left: 0;
+    }
+
+.dual-degree-colm{
+
+    margin-top: 56%;
+}
+
+.block-entry {
+    height: 882px;
+}
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
