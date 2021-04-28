@@ -124,6 +124,13 @@ color: #B30F56;
 }
 
 
+.btn-primary:hover {
+    color: #fff;
+    background: linear-gradient(
+99.79deg
+, #A4123F 16.57%, #AF0C3E 93.88%);
+}
+
 .nav_bg{
         background-color: #FFFFFF;
 
@@ -273,7 +280,19 @@ line-height: 38px;
 color: #262626;
 
 }
+.intrest-link ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 38px;
+    color: #262626;
+}
 
+.intrest-link ul li a:hover {
+ color: #AF0C3E;;
+  }
 /* interest ends */
 
 
@@ -362,28 +381,62 @@ color: #FFFFFF;
 /* vdo */
 
 
+.custom_overlay_wrapper { position: relative; }
 
-
-/* .nopadding{
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+.custom_overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	/* background-color: rgba(255, 255, 255, .9); */
+	opacity: 1;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
 }
 
-
-.thumbnail{
-
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    max-width: 19%;
+.custom_overlay:hover {
+	opacity: 1;
 }
-.rounded-image{
-    background-size: cover;
-    background-position: right top;
-    position: relative;
-} */
 
+.custom_overlay_inner {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	right: 10px;
+  	transform: translateY(-50%);
+}
+
+.custom_overlay h4 {
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.custom_overlay p { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.custom_overlay h4:after {
+	background-color: red;
+	content: "";
+	position: absolute;
+	left: 35%;
+	right: 35%;
+	bottom: 0;
+	height: 4px;
+}
+
+.vdo-icon{
+    width: 61px;
+    margin-left: 39px;
+}
 
 
 
